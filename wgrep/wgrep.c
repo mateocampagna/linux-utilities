@@ -5,12 +5,9 @@
 
 // strstr = busca substring dentro de un string
 // char* result = strstr("this line has foo in it", "foo");
-// result != NULL si encontró "foo"
-// result == NULL si no está
+// result != NULL si encontro "foo"
+// result == NULL si no esta
 
-// while ((read = getline(&line, &len, f)) != -1) {
-// line contiene la línea, incluyendo el '\n'
-// }
 
 int grep_file(char* pattern, FILE* file){
     if(!file) return 1;
